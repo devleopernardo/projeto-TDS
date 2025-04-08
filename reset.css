@@ -20,4 +20,24 @@
     --secundario-700: #7d2100;
     --secundario-800: #611a00;
     --secundario-900: #4a1400;
+
+    --terciario-50: #fffffd;
+    --terciario-100: #fffef7;
+    --terciario-200: #fffdf4;
+    --terciario-300: #fffcee;
+    --terciario-400: #fffceb;
+    --terciario-500: #fffbe6;
+    --terciario-600: #e8e4d1;
+    --terciario-700: #b5b2a3;
+    --terciario-800: #8c8a7f;
+    --terciario-900: #6b6961;
+
+    --font-sans: "Roboto mono, sans-serif";
+    --font-serif: "Roboto, Georgia, 'Times New Roman'";
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
