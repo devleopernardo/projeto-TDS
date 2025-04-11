@@ -17,7 +17,7 @@
 
 Este projeto utiliza os seguintes software:
 
-- [HTML]([https://pt-br.legacy.reactjs.org/](https://developer.mozilla.org/pt-BR/docs/Web/HTML))
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Figma](https://www.figma.com/)
