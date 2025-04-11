@@ -1,9 +1,8 @@
 
 <h1 align="center">
   <br>
-  <a href=""><img src="./src/assets/logo-waiter" alt="logo do waiter" width="250"></a>
+  <a href=""><img src="./assets/logo-waiter.svg" alt="logo do waiter" width="250"></a>
   <br>
-  Waiter
   <br>
 </h1>
 
@@ -18,7 +17,7 @@
 
 Este projeto utiliza os seguintes software:
 
-- [HTML]([https://pt-br.legacy.reactjs.org/](https://developer.mozilla.org/pt-BR/docs/Web/HTML))
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Figma](https://www.figma.com/)
