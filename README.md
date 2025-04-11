@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href=""><img src="./src/assets/logo-waiter" alt="logo do waiter" width="250"></a>
+  <a href=""><img src="./src/assets/logo-waiter.svg" alt="logo do waiter" width="250"></a>
   <br>
   Waiter
   <br>
