@@ -3,7 +3,6 @@
   <br>
   <a href=""><img src="./assets/logo-waiter.svg" alt="logo do waiter" width="250"></a>
   <br>
-  Waiter
   <br>
 </h1>
 
