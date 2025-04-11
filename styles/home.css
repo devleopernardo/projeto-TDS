@@ -1,0 +1,258 @@
+@import "../reset.css";
+
+header{
+    background-color: var(--primario-700);
+    padding: 10px;
+    color: #fff;
+    font-family: "Roboto, Georgia, 'Times New Roman'";
+}
+header img{
+    height: 25px;
+    margin-left: 15px;
+}
+
+body{
+    background-color: var(--terciario-400);
+}
+.main-intro{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.main-intro-titulo{
+    font-size: 28px;
+    color: var(--primario-900);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: Roboto mono, sans-serif;
+}
+
+.main-first-titulo{
+    text-align: center;
+    margin: 20px;
+    color: var(--secundario-500);
+    font-family: "Roboto mono, sans-serif";
+}
+
+.main-first-container{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 12px;
+    margin: 30px;
+    justify-content: center;
+}
+
+.main-first-card{
+    background-color: var(--secundario-500);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+   }
+  
+.main-first-card h3{
+    text-align: center;
+}   
+
+.main-first-card img{
+    height: 25px;
+    margin-right: 10px;
+}
+
+.main-second-titulo{
+    text-align: center;
+    color: var(--primario-800);
+    margin: 20px;
+    font-family: "Roboto mono, sans-serif";
+}
+
+.main-second-container{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 12px;
+    margin: 30px;
+    justify-content: center;
+}
+.main-second-card{
+    background-color: var(--primario-700);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.main-second-card h3{
+    text-align: center;
+}
+
+.main-second-card img{
+    height: 25px;
+    margin-right: 10px;
+}
+
+.main-third-titulo{
+    color: var(--primario-800);
+    text-align: center;
+    margin: 20px;
+    font-family: "Roboto mono, sans-serif";
+}
+.main-third-container{
+    display: flex;
+    margin: 30px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.main-third-card{
+    background-color: #fff;
+}
+
+.main-third-card img{
+    height: 260px;
+    width: 330px;
+}
+
+.main-third-card-titulo{
+    font-size: 16px;
+    margin-left: 12px;
+}
+
+.main-third-card-paragrafo{
+    font-size: 14px;
+    margin-left: 12px;
+    margin-right: 12px;
+    text-justify: justify;
+    margin-bottom: 10px;
+}
+
+.main-third-card button{
+    margin-left: 12px;
+    border: none;
+    background-color: #fff;
+    color: var(--secundario-800);
+    margin-bottom: 12px;
+}
+
+.main-fourth{
+    background-color: var(--primario-900);
+    color: #fff;
+    padding: 20px;
+}
+
+.main-fourth-titulo{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Roboto mono, sans-serif";
+}
+
+.main-fourth-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-fourth-container{
+    display: flex;
+    padding: 20px;
+}
+
+.main-fourth-card{
+    background-color: var(--primario-700);
+    padding: 15px;
+    border-radius: 6px;
+}
+
+footer{
+    margin-top: 35px;
+    background-color: var(--secundario-700);
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+
+.contato{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto, Georgia, 'Times New Roman'";
+    font-size: 12px;
+}
+
+.contato-titulo{
+    font-size: 15px;
+    font-family: "Roboto, Georgia, 'Times New Roman'";
+}
+
+.final{
+    margin-top: 40px;
+    font-family: "Roboto, Georgia, 'Times New Roman'";
+}
+
+.button-fixed{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    margin: 30px;
+}
+.button-fixed button{
+    position: fixed;
+    bottom: 30px;
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (min-width: 390px){
+    .main-first-container{
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .main-first-card{
+        max-width: 166px;
+        max-height: 144px ;
+    }
+    
+    .main-second-container{
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .main-second-card{
+        max-width: 166px;
+        max-height: 144px ;
+    }
+     
+    .main-third-container{
+        flex-wrap: wrap;
+    }
+
+    .main-third-card{
+        max-width: 350px;
+        max-height: 421px;
+    }
+
+    .main-fourth-container{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    
+    footer h2{
+        text-align: start;
+    }
+
+    .contato{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    }
+
+    
+    
