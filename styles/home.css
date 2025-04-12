@@ -3,11 +3,35 @@
 header{
     background-color: var(--primario-700);
     padding: 10px;
-    color: #fff;
 }
 header img{
     height: 30px;
     margin-left: 15px;
+}
+.menu{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_container{
+    display: flex;
+    align-items: center;
+}
+
+.menu_list{
+    display: flex;
+    gap: 20px;
+}
+
+.menu_list li{
+    list-style: none;
+}
+
+.menu_list a{
+    text-decoration: none;
+    font-family: var(--font-sans, Roboto, Georgia, 'Times New Roman', serif);
+    color: var(--terciario-50);
 }
 
 body{
@@ -220,6 +244,10 @@ body{
 }
 
 @media screen and (min-width: 390px){
+    .menu_list{
+        display: none;
+    }
+
     .main_first_container{
         flex-wrap: wrap;
         margin: auto;
@@ -271,8 +299,12 @@ body{
     }
 
 @media screen and (min-width: 640px){
+    .menu_list{
+        display: none;
+    }
+
     .main_intro_titulo{
-        font-size: 28px;
+        font-size: 32px;
     }
 
     .main_first_container{
@@ -294,11 +326,61 @@ body{
         max-width: 206px;
         max-height: 140px ;
     }
-
-   
-    
-
-
 }
-    
+
+@media screen and (min-width: 768px) {
+    .menu_list{
+        display: flex;
+    }
+
+    .menu_link{
+        display: none;
+    }
+
+    .main.first.container{
+        max-width: 708px;
+        max-height: 368px ;
+    }
+
+    .main_first_card{
+        max-width: 224px;
+        max-height: 152px ;
+    }
+
+    .main_second_container{
+        max-width: 708px;
+        max-height: 368px ;
+    }
+
+    .main_second_card{
+        max-width: 224px;
+        max-height: 152px ;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .main_first_container{
+        flex-wrap: wrap;
+        margin: auto;
+        max-width: 800px;
+        max-height: 360px;
+    }   
+
+    .main_first_card{
+        max-width: 327px;
+        max-height: 176px ;
+    }
+
+    .main_second_container{
+        flex-wrap: wrap;
+        margin: auto;
+        max-width: 800px;
+        max-height: 360px;
+    }
+
+    .main_second_card{
+        max-width: 327px;
+        max-height: 176px ;
+    }
+}
     
